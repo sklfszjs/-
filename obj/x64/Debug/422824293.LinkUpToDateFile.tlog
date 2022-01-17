@@ -1,0 +1,1 @@
+g++ -o "/root/projects/ConsoleApplication1/bin/x64/Debug/ConsoleApplication1.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/ConsoleApplication1/obj/x64/Debug/main.o /root/projects/ConsoleApplication1/obj/x64/Debug/Taskq.o /root/projects/ConsoleApplication1/obj/x64/Debug/Threadpool.o -lpthread
